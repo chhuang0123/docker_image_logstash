@@ -8,8 +8,6 @@ ENV LOGSTASH_VERSION=5.5.2 \
 ADD https://artifacts.elastic.co/downloads/logstash/logstash-${LOGSTASH_VERSION}.tar.gz /opt/
 
 RUN set -x && \
-    sed -i 's/archive.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list && \
-    sed -i 's/security.ubuntu.com/free.nchc.org.tw/g' /etc/apt/sources.list && \
     apt-get update && \
     apt-get install -y openjdk-8-jdk && \
     cd /opt && \
