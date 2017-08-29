@@ -6,8 +6,8 @@
 * [5.5.2, latest (Dockerfile)](https://github.com/chhuang0123/docker_image_logstash/blob/master/5.5.2/Dockerfile)
 
 ### Features
-* Support [console input] immediately(https://github.com/chhuang0123/docker_image_logstash/blob/master/5.5.2/opt/logstash/config/input.conf) (input.conf)
-* Support [console output] for debugging (https://github.com/chhuang0123/docker_image_logstash/blob/master/5.5.2/opt/logstash/config/output.conf) (output.conf)
+* Support [console input](https://github.com/chhuang0123/docker_image_logstash/blob/master/5.5.2/opt/logstash/config/input.conf)  immediately (input.conf)
+* Support [console output](https://github.com/chhuang0123/docker_image_logstash/blob/master/5.5.2/opt/logstash/config/output.conf) for debugging (output.conf)
 * Based on openjdk:8-jre-slim to make docker image smaller
 
 ### How to Run?
